@@ -178,7 +178,7 @@ evenCounter() === 10;
 
 Импортируйте и используйте в решении уже готовые решения из задач 3 и 4.
 
-<a name="myfootnote1">DON'T PANIC!</a><sup>1</sup> Условие задачи выглядит в десяток раз более сложным, чем окажется решение!
+DON'T PANIC!<sup><a href="#1">1</a></sup> Условие задачи выглядит в десяток раз более сложным, чем окажется решение!
 
 ### Задача 6
 
@@ -230,4 +230,4 @@ getPolynomial(1, 0, 0) === "x^2";
 getPolynomial(8, 3.5, -1, 0, 12) === "8*x^4+3.5*x^3-x^2+12";
 ```
 
-1. [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(fictional))
+<sup><a name="1">1.</a> [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(fictional))</sup>
