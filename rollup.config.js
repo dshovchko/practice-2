@@ -1,4 +1,5 @@
-import buble from "rollup-plugin-buble";
+import babel from "rollup-plugin-babel";
+import babelrc from "babelrc-rollup";
 import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import json from "rollup-plugin-json";
@@ -7,7 +8,7 @@ import multiEntry from "rollup-plugin-multi-entry";
 export default {
     plugins: [
         json(),
-        buble({ objectAssign: "Object.assign" }),
+        babel(babelrc()),
         resolve({ preferBuiltins: true }),
         commonjs(),
         multiEntry()
@@ -15,7 +16,7 @@ export default {
     output: {
 
         format: "umd",
-        name: "practice3",
+        name: "practice-2",
         sourcemap: true
     }
 };
