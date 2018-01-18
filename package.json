@@ -23,9 +23,9 @@
     "test": "mocha",
     "test:all": "mocha ./test/**/*.spec.js",
     "test:browser": "run-p build:test sync:test",
-
     "build:test": "rollup -c rollup.config.test.js --watch",
-    "sync:test": "browser-sync start --files build/test-bundle.js --server . --index ./test/index.html"
+    "sync:test": "browser-sync start --files build/test-bundle.js --server . --index ./test/index.html",
+    "postinstall": "rollup-watch-fix"
   },
   "engines": {
     "node": ">=8.0"
@@ -45,6 +45,7 @@
     "rollup-plugin-json": "^2.3.0",
     "rollup-plugin-multi-entry": "^2.0.2",
     "rollup-plugin-node-resolve": "^3.0.2",
+    "rollup-watch-fix": "0.0.3",
     "source-map-support": "^0.5.0"
   },
   "dependencies": {

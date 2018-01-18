@@ -230,4 +230,4 @@ getPolynomial(1, 0, 0) === "x^2";
 getPolynomial(8, 3.5, -1, 0, 12) === "8*x^4+3.5*x^3-x^2+12";
 ```
 
-<sup>[1](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(fictional))</sup>
+1. [The Hitchhiker's Guide to the Galaxy](https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy_(fictional))
