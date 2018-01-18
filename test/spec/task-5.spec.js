@@ -5,7 +5,7 @@ import task from "../../src/task-5.js";
 const assert = chai.assert,
     boundingRover = task;
 
-describe("Task 4: Bounding Curious Opportunities", () => {
+describe("Task 5: Bounding Curious Opportunities", () => {
 
     it("Don't move and hands up!",
         () => assert.deepEqual(

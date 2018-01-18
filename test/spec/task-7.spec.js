@@ -4,7 +4,7 @@ import task from "../../src/task-7.js";
 const assert = chai.assert,
     getPolynomial = task;
 
-describe("Task 6: Polynomials", () => {
+describe("Task 7: Polynomials", () => {
     describe("boundary cases", () => {
         it("should return zero for for no coefficients",
             () => assert.equal(getPolynomial(), "0"));

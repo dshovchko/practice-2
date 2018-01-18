@@ -4,7 +4,7 @@ import task from "../../src/task-6.js";
 const assert = chai.assert,
     findPath = task;
 
-describe("Task 7: Pathfinder", () => {
+describe("Task 6: Pathfinder", () => {
     it("should return null for empty object",
         () => assert.equal(findPath({}), null));
 
