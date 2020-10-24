@@ -1,5 +1,6 @@
 
 export default function sum(...values) {
+    // Change me!
 
-    return values.reduce((x, y) => (x + y), 0);
+    return 0;
 }
